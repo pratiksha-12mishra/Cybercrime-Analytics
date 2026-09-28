@@ -51,7 +51,7 @@ Fraud is overwhelmingly the dominant cybercrime motive, accounting for **3,081**
 |---|---:|
 | Fraud | 3,081 |
 | Causing Disrepute | 363 |
-| Sexual Exploitation | ≈250 |
+| Sexual Exploitation | ≈311 |
 | Personal Revenge | 154 |
 | Prank | 112 |
 

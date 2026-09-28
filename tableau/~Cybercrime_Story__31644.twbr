@@ -1,0 +1,1851 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0819.2015                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='fdefe26eb9816337a919dbddf0a14d7bbfae0aa23cca08d7b2912472c5d29417' _.fcp.WorkbookFingerprinting.true...creator-author-id='fdefe26eb9816337a919dbddf0a14d7bbfae0aa23cca08d7b2912472c5d29417' _.fcp.WorkbookFingerprinting.true...creator-license-type='free' _.fcp.WorkbookFingerprinting.true...creator-machine-id='9c99c53afb0d6ab78eba5ebff045e31f8ee6cdcf4950bfac2aaec22a174d4000' _.fcp.WorkbookFingerprinting.true...license-type='free' _.fcp.WorkbookFingerprinting.true...machine-id='9c99c53afb0d6ab78eba5ebff045e31f8ee6cdcf4950bfac2aaec22a174d4000' original-version='18.1' source-build='2026.2.2 (20262.26.0819.2015)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='cybercrime_cleaned' inline='true' name='federated.095ez3z0ni7dhj172t6fq0wc8ziz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cybercrime_cleaned' name='textscan.0ivrmsg0lwxb9011h2i9h0of2of6'>
+            <connection class='textscan' directory='C:/Users/PRATIKSHA MISHRA/Desktop/Cybercrime-Analytics/data/cleaned' filename='cybercrime_cleaned.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='integer' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Abetment to Suicide]' />
+            <value name='[Anger]' />
+            <value name='[Causing Disrepute]' />
+            <value name='[Developing own business]' />
+            <value name='[Disrupt Public Service]' />
+            <value name='[Extortion]' />
+            <value name='[Fraud]' />
+            <value name='[Inciting Hate against Country]' />
+            <value name='[Personal Revenge]' />
+            <value name='[Political Motives]' />
+            <value name='[Prank]' />
+            <value name='[Psycho or Pervert]' />
+            <value name='[Sale purchase illegal drugs]' />
+            <value name='[Sexual Exploitation]' />
+            <value name='[Spreading Piracy]' />
+            <value name='[Steal Information]' />
+            <value name='[Terrorist Activities]' />
+            <value name='[Terrorist Funding]' />
+            <value name='[Terrorist Recruitment]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[cybercrime_cleaned.csv].[Abetment to Suicide]' />
+              <field name='[cybercrime_cleaned.csv].[Anger]' />
+              <field name='[cybercrime_cleaned.csv].[Causing Disrepute]' />
+              <field name='[cybercrime_cleaned.csv].[Developing own business]' />
+              <field name='[cybercrime_cleaned.csv].[Disrupt Public Service]' />
+              <field name='[cybercrime_cleaned.csv].[Extortion]' />
+              <field name='[cybercrime_cleaned.csv].[Fraud]' />
+              <field name='[cybercrime_cleaned.csv].[Inciting Hate against Country]' />
+              <field name='[cybercrime_cleaned.csv].[Personal Revenge]' />
+              <field name='[cybercrime_cleaned.csv].[Political Motives]' />
+              <field name='[cybercrime_cleaned.csv].[Prank]' />
+              <field name='[cybercrime_cleaned.csv].[Psycho or Pervert]' />
+              <field name='[cybercrime_cleaned.csv].[Sale purchase illegal drugs]' />
+              <field name='[cybercrime_cleaned.csv].[Sexual Exploitation]' />
+              <field name='[cybercrime_cleaned.csv].[Spreading Piracy]' />
+              <field name='[cybercrime_cleaned.csv].[Steal Information]' />
+              <field name='[cybercrime_cleaned.csv].[Terrorist Activities]' />
+              <field name='[cybercrime_cleaned.csv].[Terrorist Funding]' />
+              <field name='[cybercrime_cleaned.csv].[Terrorist Recruitment]' />
+            </group>
+          </groups>
+          <relation connection='textscan.0ivrmsg0lwxb9011h2i9h0of2of6' name='cybercrime_cleaned.csv' table='[cybercrime_cleaned#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='City' ordinal='0' />
+              <column datatype='integer' name='Personal Revenge' ordinal='1' />
+              <column datatype='integer' name='Anger' ordinal='2' />
+              <column datatype='integer' name='Fraud' ordinal='3' />
+              <column datatype='integer' name='Extortion' ordinal='4' />
+              <column datatype='integer' name='Causing Disrepute' ordinal='5' />
+              <column datatype='integer' name='Prank' ordinal='6' />
+              <column datatype='integer' name='Sexual Exploitation' ordinal='7' />
+              <column datatype='integer' name='Political Motives' ordinal='8' />
+              <column datatype='integer' name='Terrorist Activities' ordinal='9' />
+              <column datatype='integer' name='Terrorist Recruitment' ordinal='10' />
+              <column datatype='integer' name='Terrorist Funding' ordinal='11' />
+              <column datatype='integer' name='Inciting Hate against Country' ordinal='12' />
+              <column datatype='integer' name='Disrupt Public Service' ordinal='13' />
+              <column datatype='integer' name='Sale purchase illegal drugs' ordinal='14' />
+              <column datatype='integer' name='Developing own business' ordinal='15' />
+              <column datatype='integer' name='Spreading Piracy' ordinal='16' />
+              <column datatype='integer' name='Psycho or Pervert' ordinal='17' />
+              <column datatype='integer' name='Steal Information' ordinal='18' />
+              <column datatype='integer' name='Abetment to Suicide' ordinal='19' />
+              <column datatype='integer' name='Others' ordinal='20' />
+              <column datatype='integer' name='Total' ordinal='21' />
+              <column datatype='real' name='Crime Rate' ordinal='22' />
+              <column datatype='integer' name='year' ordinal='23' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[cybercrime_cleaned.csv_0B5197B9A20E44A785772E56DCCC731D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Others</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Others]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Others</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_0B5197B9A20E44A785772E56DCCC731D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Total</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_0B5197B9A20E44A785772E56DCCC731D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crime Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crime Rate]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Crime Rate</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_0B5197B9A20E44A785772E56DCCC731D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_0B5197B9A20E44A785772E56DCCC731D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_0B5197B9A20E44A785772E56DCCC731D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_0B5197B9A20E44A785772E56DCCC731D]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Total 2018' datatype='integer' name='[Calculation_0198786131668994]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [year] = 2018 THEN [Total] END' />
+      </column>
+      <column caption='Total 2019' datatype='integer' name='[Calculation_0198786131800067]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [year] = 2019 THEN [Total] END' />
+      </column>
+      <column caption='YoY Change' datatype='integer' name='[Calculation_0198786131910660]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Calculation_0198786131800067]) - SUM([Calculation_0198786131668994])' />
+      </column>
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+        <semantic-values semantic-role='[Geographical].[Latitude]'>
+          <semantic-value key='&quot;Aurangabad&quot;' value='19.877600000000001' />
+          <semantic-value key='&quot;Chandigarh City&quot;' value='30.7363' />
+          <semantic-value key='&quot;Durg-Bhilainagar&quot;' value='21.1904' />
+          <semantic-value key='&quot;Jodhpur&quot;' value='26.2684' />
+          <semantic-value key='&quot;Kollam&quot;' value='8.8932000000000002' />
+          <semantic-value key='&quot;Kota&quot;' value='25.182500000000001' />
+          <semantic-value key='&quot;Raipur&quot;' value='21.2333' />
+          <semantic-value key='&quot;Srinagar&quot;' value='34.085700000000003' />
+          <semantic-value key='&quot;Thiruvananthapuram&quot;' value='8.5241000000000007' />
+          <semantic-value key='&quot;Thrissur&quot;' value='10.5167' />
+          <semantic-value key='&quot;Tiruchirapalli&quot;' value='10.8155' />
+          <semantic-value key='&quot;Vasai Virar&quot;' value='19.469999999999999' />
+        </semantic-values>
+        <semantic-values semantic-role='[Geographical].[Longitude]'>
+          <semantic-value key='&quot;Aurangabad&quot;' value='75.342299999999994' />
+          <semantic-value key='&quot;Chandigarh City&quot;' value='76.788399999999996' />
+          <semantic-value key='&quot;Durg-Bhilainagar&quot;' value='81.284899999999993' />
+          <semantic-value key='&quot;Jodhpur&quot;' value='73.005899999999997' />
+          <semantic-value key='&quot;Kollam&quot;' value='76.614099999999993' />
+          <semantic-value key='&quot;Kota&quot;' value='75.839100000000002' />
+          <semantic-value key='&quot;Raipur&quot;' value='81.633300000000006' />
+          <semantic-value key='&quot;Srinagar&quot;' value='74.805599999999998' />
+          <semantic-value key='&quot;Thiruvananthapuram&quot;' value='76.936599999999999' />
+          <semantic-value key='&quot;Thrissur&quot;' value='76.216700000000003' />
+          <semantic-value key='&quot;Tiruchirapalli&quot;' value='78.6965' />
+          <semantic-value key='&quot;Vasai Virar&quot;' value='72.799999999999997' />
+        </semantic-values>
+      </column>
+      <column caption='Motive' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <column caption='Cases' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+      <column caption='cybercrime_cleaned.csv' datatype='table' name='[__tableau_internal_object_id__].[cybercrime_cleaned.csv_0B5197B9A20E44A785772E56DCCC731D]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Pivot Field Names:nk]' palette='sf_water' type='palette'>
+            <map to='#051c61'>
+              <bucket>&quot;Personal Revenge&quot;</bucket>
+            </map>
+            <map to='#051c61'>
+              <bucket>&quot;Psycho or Pervert&quot;</bucket>
+            </map>
+            <map to='#051c61'>
+              <bucket>&quot;Terrorist Funding&quot;</bucket>
+            </map>
+            <map to='#073e92'>
+              <bucket>&quot;Disrupt Public Service&quot;</bucket>
+            </map>
+            <map to='#073e92'>
+              <bucket>&quot;Inciting Hate against Country&quot;</bucket>
+            </map>
+            <map to='#073e92'>
+              <bucket>&quot;Terrorist Activities&quot;</bucket>
+            </map>
+            <map to='#0e6ece'>
+              <bucket>&quot;Developing own business&quot;</bucket>
+            </map>
+            <map to='#0e6ece'>
+              <bucket>&quot;Fraud&quot;</bucket>
+            </map>
+            <map to='#0e6ece'>
+              <bucket>&quot;Spreading Piracy&quot;</bucket>
+            </map>
+            <map to='#2d9ced'>
+              <bucket>&quot;Extortion&quot;</bucket>
+            </map>
+            <map to='#2d9ced'>
+              <bucket>&quot;Sexual Exploitation&quot;</bucket>
+            </map>
+            <map to='#2d9ced'>
+              <bucket>&quot;Steal Information&quot;</bucket>
+            </map>
+            <map to='#68ceee'>
+              <bucket>&quot;Causing Disrepute&quot;</bucket>
+            </map>
+            <map to='#68ceee'>
+              <bucket>&quot;Prank&quot;</bucket>
+            </map>
+            <map to='#68ceee'>
+              <bucket>&quot;Sale purchase illegal drugs&quot;</bucket>
+            </map>
+            <map to='#96f2ee'>
+              <bucket>&quot;Abetment to Suicide&quot;</bucket>
+            </map>
+            <map to='#96f2ee'>
+              <bucket>&quot;Anger&quot;</bucket>
+            </map>
+            <map to='#96f2ee'>
+              <bucket>&quot;Political Motives&quot;</bucket>
+            </map>
+            <map to='#96f2ee'>
+              <bucket>&quot;Terrorist Recruitment&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:City:nk]' palette='purple_pink_gray_10_0' type='palette'>
+            <map to='#7c7270'>
+              <bucket>&quot;Varanasi&quot;</bucket>
+            </map>
+            <map to='#8074a8'>
+              <bucket>&quot;Agra&quot;</bucket>
+            </map>
+            <map to='#9b93c9'>
+              <bucket>&quot;Meerut&quot;</bucket>
+            </map>
+            <map to='#9c9290'>
+              <bucket>&quot;Jamshedpur&quot;</bucket>
+            </map>
+            <map to='#b173a0'>
+              <bucket>&quot;Thiruvananthapuram&quot;</bucket>
+            </map>
+            <map to='#c46487'>
+              <bucket>&quot;Dhanbad&quot;</bucket>
+            </map>
+            <map to='#c5bfbe'>
+              <bucket>&quot;Jodhpur&quot;</bucket>
+            </map>
+            <map to='#c6c1f0'>
+              <bucket>&quot;Allahabad&quot;</bucket>
+            </map>
+            <map to='#ddb5d5'>
+              <bucket>&quot;Nasik&quot;</bucket>
+            </map>
+            <map to='#f498b6'>
+              <bucket>&quot;Vijayawada&quot;</bucket>
+            </map>
+            <map to='#ffbed1'>
+              <bucket>&quot;Faridabad&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='cybercrime_cleaned.csv' id='cybercrime_cleaned.csv_0B5197B9A20E44A785772E56DCCC731D'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='string' name='Pivot Field Names' />
+                  <column datatype='integer' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[Abetment to Suicide]' />
+                  <value name='[Anger]' />
+                  <value name='[Causing Disrepute]' />
+                  <value name='[Developing own business]' />
+                  <value name='[Disrupt Public Service]' />
+                  <value name='[Extortion]' />
+                  <value name='[Fraud]' />
+                  <value name='[Inciting Hate against Country]' />
+                  <value name='[Personal Revenge]' />
+                  <value name='[Political Motives]' />
+                  <value name='[Prank]' />
+                  <value name='[Psycho or Pervert]' />
+                  <value name='[Sale purchase illegal drugs]' />
+                  <value name='[Sexual Exploitation]' />
+                  <value name='[Spreading Piracy]' />
+                  <value name='[Steal Information]' />
+                  <value name='[Terrorist Activities]' />
+                  <value name='[Terrorist Funding]' />
+                  <value name='[Terrorist Recruitment]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[cybercrime_cleaned.csv].[Abetment to Suicide]' />
+                    <field name='[cybercrime_cleaned.csv].[Anger]' />
+                    <field name='[cybercrime_cleaned.csv].[Causing Disrepute]' />
+                    <field name='[cybercrime_cleaned.csv].[Developing own business]' />
+                    <field name='[cybercrime_cleaned.csv].[Disrupt Public Service]' />
+                    <field name='[cybercrime_cleaned.csv].[Extortion]' />
+                    <field name='[cybercrime_cleaned.csv].[Fraud]' />
+                    <field name='[cybercrime_cleaned.csv].[Inciting Hate against Country]' />
+                    <field name='[cybercrime_cleaned.csv].[Personal Revenge]' />
+                    <field name='[cybercrime_cleaned.csv].[Political Motives]' />
+                    <field name='[cybercrime_cleaned.csv].[Prank]' />
+                    <field name='[cybercrime_cleaned.csv].[Psycho or Pervert]' />
+                    <field name='[cybercrime_cleaned.csv].[Sale purchase illegal drugs]' />
+                    <field name='[cybercrime_cleaned.csv].[Sexual Exploitation]' />
+                    <field name='[cybercrime_cleaned.csv].[Spreading Piracy]' />
+                    <field name='[cybercrime_cleaned.csv].[Steal Information]' />
+                    <field name='[cybercrime_cleaned.csv].[Terrorist Activities]' />
+                    <field name='[cybercrime_cleaned.csv].[Terrorist Funding]' />
+                    <field name='[cybercrime_cleaned.csv].[Terrorist Recruitment]' />
+                  </group>
+                </groups>
+                <relation connection='textscan.0ivrmsg0lwxb9011h2i9h0of2of6' name='cybercrime_cleaned.csv' table='[cybercrime_cleaned#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                    <column datatype='string' name='City' ordinal='0' />
+                    <column datatype='integer' name='Personal Revenge' ordinal='1' />
+                    <column datatype='integer' name='Anger' ordinal='2' />
+                    <column datatype='integer' name='Fraud' ordinal='3' />
+                    <column datatype='integer' name='Extortion' ordinal='4' />
+                    <column datatype='integer' name='Causing Disrepute' ordinal='5' />
+                    <column datatype='integer' name='Prank' ordinal='6' />
+                    <column datatype='integer' name='Sexual Exploitation' ordinal='7' />
+                    <column datatype='integer' name='Political Motives' ordinal='8' />
+                    <column datatype='integer' name='Terrorist Activities' ordinal='9' />
+                    <column datatype='integer' name='Terrorist Recruitment' ordinal='10' />
+                    <column datatype='integer' name='Terrorist Funding' ordinal='11' />
+                    <column datatype='integer' name='Inciting Hate against Country' ordinal='12' />
+                    <column datatype='integer' name='Disrupt Public Service' ordinal='13' />
+                    <column datatype='integer' name='Sale purchase illegal drugs' ordinal='14' />
+                    <column datatype='integer' name='Developing own business' ordinal='15' />
+                    <column datatype='integer' name='Spreading Piracy' ordinal='16' />
+                    <column datatype='integer' name='Psycho or Pervert' ordinal='17' />
+                    <column datatype='integer' name='Steal Information' ordinal='18' />
+                    <column datatype='integer' name='Abetment to Suicide' ordinal='19' />
+                    <column datatype='integer' name='Others' ordinal='20' />
+                    <column datatype='integer' name='Total' ordinal='21' />
+                    <column datatype='real' name='Crime Rate' ordinal='22' />
+                    <column datatype='integer' name='year' ordinal='23' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='cybercrime_cleaned (2)' inline='true' name='federated.0wrl1gs0nm823v1g8d9i60y2al65' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cybercrime_cleaned' name='textscan.07a5r9f15kraxt13e3h3f09ky5ud'>
+            <connection class='textscan' directory='C:/Users/PRATIKSHA MISHRA/Desktop/Cybercrime-Analytics/data/cleaned' filename='cybercrime_cleaned.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.07a5r9f15kraxt13e3h3f09ky5ud' name='cybercrime_cleaned.csv' table='[cybercrime_cleaned#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='City' ordinal='0' />
+            <column datatype='integer' name='Personal Revenge' ordinal='1' />
+            <column datatype='integer' name='Anger' ordinal='2' />
+            <column datatype='integer' name='Fraud' ordinal='3' />
+            <column datatype='integer' name='Extortion' ordinal='4' />
+            <column datatype='integer' name='Causing Disrepute' ordinal='5' />
+            <column datatype='integer' name='Prank' ordinal='6' />
+            <column datatype='integer' name='Sexual Exploitation' ordinal='7' />
+            <column datatype='integer' name='Political Motives' ordinal='8' />
+            <column datatype='integer' name='Terrorist Activities' ordinal='9' />
+            <column datatype='integer' name='Terrorist Recruitment' ordinal='10' />
+            <column datatype='integer' name='Terrorist Funding' ordinal='11' />
+            <column datatype='integer' name='Inciting Hate against Country' ordinal='12' />
+            <column datatype='integer' name='Disrupt Public Service' ordinal='13' />
+            <column datatype='integer' name='Sale purchase illegal drugs' ordinal='14' />
+            <column datatype='integer' name='Developing own business' ordinal='15' />
+            <column datatype='integer' name='Spreading Piracy' ordinal='16' />
+            <column datatype='integer' name='Psycho or Pervert' ordinal='17' />
+            <column datatype='integer' name='Steal Information' ordinal='18' />
+            <column datatype='integer' name='Abetment to Suicide' ordinal='19' />
+            <column datatype='integer' name='Others' ordinal='20' />
+            <column datatype='integer' name='Total' ordinal='21' />
+            <column datatype='real' name='Crime Rate' ordinal='22' />
+            <column datatype='integer' name='year' ordinal='23' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Personal Revenge</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Personal Revenge]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Personal Revenge</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Anger</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Anger]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Anger</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fraud</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fraud]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Fraud</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Extortion</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Extortion]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Extortion</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Causing Disrepute</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Causing Disrepute]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Causing Disrepute</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Prank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Prank]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Prank</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sexual Exploitation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sexual Exploitation]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Sexual Exploitation</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Political Motives</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Political Motives]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Political Motives</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Terrorist Activities</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Terrorist Activities]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Terrorist Activities</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Terrorist Recruitment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Terrorist Recruitment]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Terrorist Recruitment</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Terrorist Funding</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Terrorist Funding]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Terrorist Funding</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inciting Hate against Country</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Inciting Hate against Country]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Inciting Hate against Country</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Disrupt Public Service</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Disrupt Public Service]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Disrupt Public Service</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sale purchase illegal drugs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sale purchase illegal drugs]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Sale purchase illegal drugs</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Developing own business</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Developing own business]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Developing own business</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Spreading Piracy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Spreading Piracy]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Spreading Piracy</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Psycho or Pervert</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Psycho or Pervert]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Psycho or Pervert</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Steal Information</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Steal Information]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Steal Information</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Abetment to Suicide</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Abetment to Suicide]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Abetment to Suicide</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Others</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Others]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Others</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Total</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crime Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crime Rate]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Crime Rate</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Total 2018' datatype='integer' name='[Calculation_0198786142584837]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [year] = 2018 THEN [Total] END' />
+      </column>
+      <column caption='Total 2019' datatype='integer' name='[Calculation_0198786142834694]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [year] = 2019 THEN [Total] END' />
+      </column>
+      <column caption='YoY Change' datatype='integer' name='[Calculation_0198786142945287]' role='measure' type='ordinal'>
+        <calculation class='tableau' formula='SUM([Calculation_0198786142834694]) - SUM([Calculation_0198786142584837])' />
+      </column>
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='cybercrime_cleaned.csv' datatype='table' name='[__tableau_internal_object_id__].[cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:City:nk]' palette='purple_10_0' type='palette'>
+            <map to='#7c4d79'>
+              <bucket>&quot;Vijayawada&quot;</bucket>
+            </map>
+            <map to='#875a87'>
+              <bucket>&quot;Varanasi&quot;</bucket>
+            </map>
+            <map to='#946692'>
+              <bucket>&quot;Nasik&quot;</bucket>
+            </map>
+            <map to='#a5729b'>
+              <bucket>&quot;Meerut&quot;</bucket>
+            </map>
+            <map to='#b57ea3'>
+              <bucket>&quot;Jodhpur&quot;</bucket>
+            </map>
+            <map to='#c28caf'>
+              <bucket>&quot;Jamshedpur&quot;</bucket>
+            </map>
+            <map to='#cd9bbc'>
+              <bucket>&quot;Faridabad&quot;</bucket>
+            </map>
+            <map to='#d9aaca'>
+              <bucket>&quot;Dhanbad&quot;</bucket>
+            </map>
+            <map to='#e5b8d8'>
+              <bucket>&quot;Allahabad&quot;</bucket>
+            </map>
+            <map to='#eec9e5'>
+              <bucket>&quot;Agra&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='cybercrime_cleaned.csv' id='cybercrime_cleaned.csv_311FBF087D624A59879B388DD40A58D5'>
+            <properties context=''>
+              <relation connection='textscan.07a5r9f15kraxt13e3h3f09ky5ud' name='cybercrime_cleaned.csv' table='[cybercrime_cleaned#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='City' ordinal='0' />
+                  <column datatype='integer' name='Personal Revenge' ordinal='1' />
+                  <column datatype='integer' name='Anger' ordinal='2' />
+                  <column datatype='integer' name='Fraud' ordinal='3' />
+                  <column datatype='integer' name='Extortion' ordinal='4' />
+                  <column datatype='integer' name='Causing Disrepute' ordinal='5' />
+                  <column datatype='integer' name='Prank' ordinal='6' />
+                  <column datatype='integer' name='Sexual Exploitation' ordinal='7' />
+                  <column datatype='integer' name='Political Motives' ordinal='8' />
+                  <column datatype='integer' name='Terrorist Activities' ordinal='9' />
+                  <column datatype='integer' name='Terrorist Recruitment' ordinal='10' />
+                  <column datatype='integer' name='Terrorist Funding' ordinal='11' />
+                  <column datatype='integer' name='Inciting Hate against Country' ordinal='12' />
+                  <column datatype='integer' name='Disrupt Public Service' ordinal='13' />
+                  <column datatype='integer' name='Sale purchase illegal drugs' ordinal='14' />
+                  <column datatype='integer' name='Developing own business' ordinal='15' />
+                  <column datatype='integer' name='Spreading Piracy' ordinal='16' />
+                  <column datatype='integer' name='Psycho or Pervert' ordinal='17' />
+                  <column datatype='integer' name='Steal Information' ordinal='18' />
+                  <column datatype='integer' name='Abetment to Suicide' ordinal='19' />
+                  <column datatype='integer' name='Others' ordinal='20' />
+                  <column datatype='integer' name='Total' ordinal='21' />
+                  <column datatype='real' name='Crime Rate' ordinal='22' />
+                  <column datatype='integer' name='year' ordinal='23' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='cybercrime_cleaned (3)' inline='true' name='federated.14nwxru0dlyrc016miljy19vuzyk' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cybercrime_cleaned' name='textscan.1xi0v2612yu8i71cj4v2p1gwlpcw'>
+            <connection class='textscan' directory='C:/Users/PRATIKSHA MISHRA/Desktop/Cybercrime-Analytics/data/cleaned' filename='cybercrime_cleaned.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1xi0v2612yu8i71cj4v2p1gwlpcw' name='cybercrime_cleaned.csv' table='[cybercrime_cleaned#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='City' ordinal='0' />
+            <column datatype='integer' name='Personal Revenge' ordinal='1' />
+            <column datatype='integer' name='Anger' ordinal='2' />
+            <column datatype='integer' name='Fraud' ordinal='3' />
+            <column datatype='integer' name='Extortion' ordinal='4' />
+            <column datatype='integer' name='Causing Disrepute' ordinal='5' />
+            <column datatype='integer' name='Prank' ordinal='6' />
+            <column datatype='integer' name='Sexual Exploitation' ordinal='7' />
+            <column datatype='integer' name='Political Motives' ordinal='8' />
+            <column datatype='integer' name='Terrorist Activities' ordinal='9' />
+            <column datatype='integer' name='Terrorist Recruitment' ordinal='10' />
+            <column datatype='integer' name='Terrorist Funding' ordinal='11' />
+            <column datatype='integer' name='Inciting Hate against Country' ordinal='12' />
+            <column datatype='integer' name='Disrupt Public Service' ordinal='13' />
+            <column datatype='integer' name='Sale purchase illegal drugs' ordinal='14' />
+            <column datatype='integer' name='Developing own business' ordinal='15' />
+            <column datatype='integer' name='Spreading Piracy' ordinal='16' />
+            <column datatype='integer' name='Psycho or Pervert' ordinal='17' />
+            <column datatype='integer' name='Steal Information' ordinal='18' />
+            <column datatype='integer' name='Abetment to Suicide' ordinal='19' />
+            <column datatype='integer' name='Others' ordinal='20' />
+            <column datatype='integer' name='Total' ordinal='21' />
+            <column datatype='real' name='Crime Rate' ordinal='22' />
+            <column datatype='integer' name='year' ordinal='23' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Personal Revenge</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Personal Revenge]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Personal Revenge</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Anger</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Anger]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Anger</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fraud</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fraud]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Fraud</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Extortion</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Extortion]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Extortion</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Causing Disrepute</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Causing Disrepute]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Causing Disrepute</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Prank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Prank]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Prank</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sexual Exploitation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sexual Exploitation]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Sexual Exploitation</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Political Motives</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Political Motives]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Political Motives</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Terrorist Activities</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Terrorist Activities]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Terrorist Activities</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Terrorist Recruitment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Terrorist Recruitment]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Terrorist Recruitment</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Terrorist Funding</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Terrorist Funding]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Terrorist Funding</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inciting Hate against Country</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Inciting Hate against Country]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Inciting Hate against Country</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Disrupt Public Service</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Disrupt Public Service]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Disrupt Public Service</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sale purchase illegal drugs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sale purchase illegal drugs]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Sale purchase illegal drugs</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Developing own business</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Developing own business]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Developing own business</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Spreading Piracy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Spreading Piracy]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Spreading Piracy</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Psycho or Pervert</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Psycho or Pervert]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Psycho or Pervert</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Steal Information</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Steal Information]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Steal Information</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Abetment to Suicide</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Abetment to Suicide]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Abetment to Suicide</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Others</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Others]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Others</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Total</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crime Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crime Rate]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>Crime Rate</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[cybercrime_cleaned.csv]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+        <semantic-values semantic-role='[Geographical].[Latitude]'>
+          <semantic-value key='&quot;Aurangabad&quot;' value='19.877600000000001' />
+          <semantic-value key='&quot;Chandigarh City&quot;' value='30.7363' />
+          <semantic-value key='&quot;Durg-Bhilainagar&quot;' value='21.1904' />
+          <semantic-value key='&quot;Jodhpur&quot;' value='26.2684' />
+          <semantic-value key='&quot;Kollam&quot;' value='8.8932000000000002' />
+          <semantic-value key='&quot;Kota&quot;' value='25.213799999999999' />
+          <semantic-value key='&quot;Raipur&quot;' value='21.2333' />
+          <semantic-value key='&quot;Srinagar&quot;' value='34.085700000000003' />
+          <semantic-value key='&quot;Thiruvananthapuram&quot;' value='8.5241000000000007' />
+          <semantic-value key='&quot;Thrissur&quot;' value='10.5276' />
+          <semantic-value key='&quot;Tiruchirapalli&quot;' value='10.8155' />
+          <semantic-value key='&quot;Vasai Virar&quot;' value='19.3919' />
+        </semantic-values>
+        <semantic-values semantic-role='[Geographical].[Longitude]'>
+          <semantic-value key='&quot;Aurangabad&quot;' value='75.342299999999994' />
+          <semantic-value key='&quot;Chandigarh City&quot;' value='76.788399999999996' />
+          <semantic-value key='&quot;Durg-Bhilainagar&quot;' value='81.284899999999993' />
+          <semantic-value key='&quot;Jodhpur&quot;' value='73.005899999999997' />
+          <semantic-value key='&quot;Kollam&quot;' value='76.614099999999993' />
+          <semantic-value key='&quot;Kota&quot;' value='75.864800000000002' />
+          <semantic-value key='&quot;Raipur&quot;' value='81.633300000000006' />
+          <semantic-value key='&quot;Srinagar&quot;' value='74.805599999999998' />
+          <semantic-value key='&quot;Thiruvananthapuram&quot;' value='76.936599999999999' />
+          <semantic-value key='&quot;Thrissur&quot;' value='76.214399999999998' />
+          <semantic-value key='&quot;Tiruchirapalli&quot;' value='78.6965' />
+          <semantic-value key='&quot;Vasai Virar&quot;' value='72.839699999999993' />
+        </semantic-values>
+      </column>
+      <column caption='cybercrime_cleaned.csv' datatype='table' name='[__tableau_internal_object_id__].[cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='cybercrime_cleaned.csv' id='cybercrime_cleaned.csv_70F49340E15E4D2398CF5E9936C48734'>
+            <properties context=''>
+              <relation connection='textscan.1xi0v2612yu8i71cj4v2p1gwlpcw' name='cybercrime_cleaned.csv' table='[cybercrime_cleaned#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='City' ordinal='0' />
+                  <column datatype='integer' name='Personal Revenge' ordinal='1' />
+                  <column datatype='integer' name='Anger' ordinal='2' />
+                  <column datatype='integer' name='Fraud' ordinal='3' />
+                  <column datatype='integer' name='Extortion' ordinal='4' />
+                  <column datatype='integer' name='Causing Disrepute' ordinal='5' />
+                  <column datatype='integer' name='Prank' ordinal='6' />
+                  <column datatype='integer' name='Sexual Exploitation' ordinal='7' />
+                  <column datatype='integer' name='Political Motives' ordinal='8' />
+                  <column datatype='integer' name='Terrorist Activities' ordinal='9' />
+                  <column datatype='integer' name='Terrorist Recruitment' ordinal='10' />
+                  <column datatype='integer' name='Terrorist Funding' ordinal='11' />
+                  <column datatype='integer' name='Inciting Hate against Country' ordinal='12' />
+                  <column datatype='integer' name='Disrupt Public Service' ordinal='13' />
+                  <column datatype='integer' name='Sale purchase illegal drugs' ordinal='14' />
+                  <column datatype='integer' name='Developing own business' ordinal='15' />
+                  <column datatype='integer' name='Spreading Piracy' ordinal='16' />
+                  <column datatype='integer' name='Psycho or Pervert' ordinal='17' />
+                  <column datatype='integer' name='Steal Information' ordinal='18' />
+                  <column datatype='integer' name='Abetment to Suicide' ordinal='19' />
+                  <column datatype='integer' name='Others' ordinal='20' />
+                  <column datatype='integer' name='Total' ordinal='21' />
+                  <column datatype='real' name='Crime Rate' ordinal='22' />
+                  <column datatype='integer' name='year' ordinal='23' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Biggest Movers'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Which Cities Changed the Most (2018→2019)?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cybercrime_cleaned (2)' name='federated.0wrl1gs0nm823v1g8d9i60y2al65' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wrl1gs0nm823v1g8d9i60y2al65'>
+            <column caption='Total 2018' datatype='integer' name='[Calculation_0198786142584837]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [year] = 2018 THEN [Total] END' />
+            </column>
+            <column caption='Total 2019' datatype='integer' name='[Calculation_0198786142834694]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [year] = 2019 THEN [Total] END' />
+            </column>
+            <column caption='YoY Change' datatype='integer' name='[Calculation_0198786142945287]' role='measure' type='ordinal'>
+              <calculation class='tableau' formula='SUM([Calculation_0198786142834694]) - SUM([Calculation_0198786142584837])' />
+            </column>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='integer' name='[Total]' role='measure' type='quantitative' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_0198786142945287]' derivation='User' name='[usr:Calculation_0198786142945287:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_0198786142945287]' derivation='User' name='[usr:Calculation_0198786142945287:qk]' pivot='key' type='quantitative' />
+            <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0wrl1gs0nm823v1g8d9i60y2al65].[none:City:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='[Calculation_0198786142945287]' function='order' user:ui-marker='order'>
+                <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Agra&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Allahabad&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Amritsar&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Asansol&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Aurangabad&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Bhopal&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Chandigarh City&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Dhanbad&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Durg-Bhilainagar&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Faridabad&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Gwalior&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Jabalpur&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Jamshedpur&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Jodhpur&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Kannur&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Kollam&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Kota&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Ludhiana&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Madurai&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Malappuram&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Meerut&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Nasik&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Raipur&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Rajkot&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Ranchi&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Srinagar&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Thiruvananthapuram&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Thrissur&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Tiruchirapalli&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Vadodara&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Varanasi&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Vasai Virar&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Vijayawada&quot;' />
+                  <groupfilter function='member' level='[none:City:nk]' member='&quot;Vishakhapatnam&quot;' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0wrl1gs0nm823v1g8d9i60y2al65].[none:City:nk]' direction='DESC' using='[federated.0wrl1gs0nm823v1g8d9i60y2al65].[usr:Calculation_0198786142945287:ok]' />
+          <slices>
+            <column>[federated.0wrl1gs0nm823v1g8d9i60y2al65].[none:City:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0wrl1gs0nm823v1g8d9i60y2al65].[none:City:nk]' />
+              <text column='[federated.0wrl1gs0nm823v1g8d9i60y2al65].[usr:Calculation_0198786142945287:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0wrl1gs0nm823v1g8d9i60y2al65].[none:City:nk]</rows>
+        <cols>[federated.0wrl1gs0nm823v1g8d9i60y2al65].[usr:Calculation_0198786142945287:qk]</cols>
+      </table>
+      <simple-id uuid='{124DEA28-58C2-4436-8B20-7D9576DDFA8D}' />
+    </worksheet>
+    <worksheet name='Geographic Concentration'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cybercrime_cleaned (3)' name='federated.14nwxru0dlyrc016miljy19vuzyk' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.14nwxru0dlyrc016miljy19vuzyk'>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+              <semantic-values semantic-role='[Geographical].[Latitude]'>
+                <semantic-value key='&quot;Aurangabad&quot;' value='19.877600000000001' />
+                <semantic-value key='&quot;Chandigarh City&quot;' value='30.7363' />
+                <semantic-value key='&quot;Durg-Bhilainagar&quot;' value='21.1904' />
+                <semantic-value key='&quot;Jodhpur&quot;' value='26.2684' />
+                <semantic-value key='&quot;Kollam&quot;' value='8.8932000000000002' />
+                <semantic-value key='&quot;Kota&quot;' value='25.213799999999999' />
+                <semantic-value key='&quot;Raipur&quot;' value='21.2333' />
+                <semantic-value key='&quot;Srinagar&quot;' value='34.085700000000003' />
+                <semantic-value key='&quot;Thiruvananthapuram&quot;' value='8.5241000000000007' />
+                <semantic-value key='&quot;Thrissur&quot;' value='10.5276' />
+                <semantic-value key='&quot;Tiruchirapalli&quot;' value='10.8155' />
+                <semantic-value key='&quot;Vasai Virar&quot;' value='19.3919' />
+              </semantic-values>
+              <semantic-values semantic-role='[Geographical].[Longitude]'>
+                <semantic-value key='&quot;Aurangabad&quot;' value='75.342299999999994' />
+                <semantic-value key='&quot;Chandigarh City&quot;' value='76.788399999999996' />
+                <semantic-value key='&quot;Durg-Bhilainagar&quot;' value='81.284899999999993' />
+                <semantic-value key='&quot;Jodhpur&quot;' value='73.005899999999997' />
+                <semantic-value key='&quot;Kollam&quot;' value='76.614099999999993' />
+                <semantic-value key='&quot;Kota&quot;' value='75.864800000000002' />
+                <semantic-value key='&quot;Raipur&quot;' value='81.633300000000006' />
+                <semantic-value key='&quot;Srinagar&quot;' value='74.805599999999998' />
+                <semantic-value key='&quot;Thiruvananthapuram&quot;' value='76.936599999999999' />
+                <semantic-value key='&quot;Thrissur&quot;' value='76.214399999999998' />
+                <semantic-value key='&quot;Tiruchirapalli&quot;' value='78.6965' />
+                <semantic-value key='&quot;Vasai Virar&quot;' value='72.839699999999993' />
+              </semantic-values>
+            </column>
+            <column datatype='integer' name='[Total]' role='measure' type='quantitative' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total]' derivation='Sum' name='[sum:Total:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.14nwxru0dlyrc016miljy19vuzyk].[Longitude (generated)]' field-type='quantitative' max='12029232.116283633' min='4018919.8495492539' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.14nwxru0dlyrc016miljy19vuzyk].[Latitude (generated)]' field-type='quantitative' max='5376207.8286732743' min='-1154878.4964743759' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='satellite' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.14nwxru0dlyrc016miljy19vuzyk].[sum:Total:qk]' />
+              <size column='[federated.14nwxru0dlyrc016miljy19vuzyk].[sum:Total:qk]' />
+              <lod column='[federated.14nwxru0dlyrc016miljy19vuzyk].[none:City:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='926' />
+                <format attr='maxwidth' value='926' />
+                <format attr='minheight' value='755' />
+                <format attr='maxheight' value='755' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.14nwxru0dlyrc016miljy19vuzyk].[Latitude (generated)]</rows>
+        <cols>[federated.14nwxru0dlyrc016miljy19vuzyk].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{11F0CD57-DF25-4C94-979C-1A740BD126FB}' />
+    </worksheet>
+    <worksheet name='Motive Breakdown'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Which Cybercrime Motives Dominate?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cybercrime_cleaned' name='federated.095ez3z0ni7dhj172t6fq0wc8ziz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.095ez3z0ni7dhj172t6fq0wc8ziz'>
+            <column caption='Motive' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='Cases' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.095ez3z0ni7dhj172t6fq0wc8ziz].[none:Pivot Field Names:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Pivot Field Values])' function='order' user:ui-marker='order'>
+                <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+                  <groupfilter function='member' level='[none:Pivot Field Names:nk]' member='&quot;Abetment to Suicide&quot;' />
+                  <groupfilter function='member' level='[none:Pivot Field Names:nk]' member='&quot;Anger&quot;' />
+                  <groupfilter function='member' level='[none:Pivot Field Names:nk]' member='&quot;Causing Disrepute&quot;' />
+                  <groupfilter function='member' level='[none:Pivot Field Names:nk]' member='&quot;Developing own business&quot;' />
+                  <groupfilter function='member' level='[none:Pivot Field Names:nk]' member='&quot;Disrupt Public Service&quot;' />
+                  <groupfilter function='member' level='[none:Pivot Field Names:nk]' member='&quot;Extortion&quot;' />
+                  <groupfilter function='member' level='[none:Pivot Field Names:nk]' member='&quot;Fraud&quot;' />
+                  <groupfilter function='member' level='[none:Pivot Field Names:nk]' member='&quot;Inciting Hate against Country&quot;' />
+                  <groupfilter function='member' level='[none:Pivot Field Names:nk]' member='&quot;Personal Revenge&quot;' />
+                  <groupfilter function='member' level='[none:Pivot Field Names:nk]' member='&quot;Political Motives&quot;' />
+                  <groupfilter function='member' level='[none:Pivot Field Names:nk]' member='&quot;Prank&quot;' />
+                  <groupfilter function='member' level='[none:Pivot Field Names:nk]' member='&quot;Psycho or Pervert&quot;' />
+                  <groupfilter function='member' level='[none:Pivot Field Names:nk]' member='&quot;Sale purchase illegal drugs&quot;' />
+                  <groupfilter function='member' level='[none:Pivot Field Names:nk]' member='&quot;Sexual Exploitation&quot;' />
+                  <groupfilter function='member' level='[none:Pivot Field Names:nk]' member='&quot;Spreading Piracy&quot;' />
+                  <groupfilter function='member' level='[none:Pivot Field Names:nk]' member='&quot;Steal Information&quot;' />
+                  <groupfilter function='member' level='[none:Pivot Field Names:nk]' member='&quot;Terrorist Activities&quot;' />
+                  <groupfilter function='member' level='[none:Pivot Field Names:nk]' member='&quot;Terrorist Funding&quot;' />
+                  <groupfilter function='member' level='[none:Pivot Field Names:nk]' member='&quot;Terrorist Recruitment&quot;' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.095ez3z0ni7dhj172t6fq0wc8ziz].[none:Pivot Field Names:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.095ez3z0ni7dhj172t6fq0wc8ziz].[sum:Pivot Field Values:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.095ez3z0ni7dhj172t6fq0wc8ziz].[none:Pivot Field Names:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.095ez3z0ni7dhj172t6fq0wc8ziz].[none:Pivot Field Names:nk]' />
+              <text column='[federated.095ez3z0ni7dhj172t6fq0wc8ziz].[sum:Pivot Field Values:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.095ez3z0ni7dhj172t6fq0wc8ziz].[none:Pivot Field Names:nk]</rows>
+        <cols>[federated.095ez3z0ni7dhj172t6fq0wc8ziz].[sum:Pivot Field Values:qk]</cols>
+      </table>
+      <simple-id uuid='{A9FEBB68-8089-49C6-96B3-234F3D0227B6}' />
+    </worksheet>
+    <worksheet name='Yearly Trend'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>How Did Cybercrime Change from 2018 to 2019?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cybercrime_cleaned (2)' name='federated.0wrl1gs0nm823v1g8d9i60y2al65' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wrl1gs0nm823v1g8d9i60y2al65'>
+            <column datatype='integer' name='[Total]' role='measure' type='quantitative' />
+            <column-instance column='[year]' derivation='None' name='[none:year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[year]' derivation='None' name='[none:year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total]' derivation='Sum' name='[sum:Total:qk]' pivot='key' type='quantitative' />
+            <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0wrl1gs0nm823v1g8d9i60y2al65].[none:year:qk]' />
+              <text column='[federated.0wrl1gs0nm823v1g8d9i60y2al65].[sum:Total:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#000000' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0wrl1gs0nm823v1g8d9i60y2al65].[sum:Total:qk]</rows>
+        <cols>[federated.0wrl1gs0nm823v1g8d9i60y2al65].[none:year:ok]</cols>
+      </table>
+      <simple-id uuid='{3A64541E-5737-4EB6-8192-D7C3710B6732}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Cybercrime Story' type='storyboard'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#f5eddc' />
+        </style-rule>
+        <style-rule element='story-description'>
+          <format attr='background-color' value='#1b1b1bd9' />
+          <format attr='text-align' value='right' />
+        </style-rule>
+        <style-rule element='story-point-caption'>
+          <format attr='width' value='977' />
+          <format attr='color' value='#1b1b1b' />
+          <format attr='font-weight' value='bold' />
+          <format attr='font-style' value='normal' />
+          <format attr='font-size' value='20' />
+          <format attr='background-color' value='#e6e6e6' />
+        </style-rule>
+        <style-rule element='story-title'>
+          <format attr='border-width' value='0' />
+          <format attr='border-style' value='none' />
+          <format attr='text-align' value='center' />
+        </style-rule>
+      </style>
+      <size maxheight='900' maxwidth='1500' minheight='900' minwidth='1500' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98222' id='9' param='vert' removable='false' type-v2='layout-flow' w='98934' x='533' y='889'>
+            <zone h='98222' id='1' param='vert' removable='false' type-v2='layout-flow' w='98934' x='533' y='889'>
+              <zone h='11222' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98934' x='533' y='889' />
+              <zone h='87000' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98934' x='533' y='12111'>
+                <flipboard active-id='8' nav-type='caption' show-nav-arrows='true'>
+                  <story-points>
+                    <story-point caption='Where is Cybercrime Concentrated?' captured-sheet='Geographic Concentration' id='8' />
+                    <story-point caption='How Did Cybercrime Changed from 2018 to 2019' captured-sheet='Yearly Trend' id='4' />
+                    <story-point caption='Which Cybercrime Motives Dominate?' captured-sheet='Motive Breakdown' id='5' />
+                    <story-point caption='Which Cities Changed the Most?' captured-sheet='Biggest Movers' id='6' />
+                  </story-points>
+                </flipboard>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone flipboard-zone-id='5' h='19556' hidden='true' id='11' story-point-id='4' type-v2='text' w='34467' x='57733' y='64667'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#ffffff' fontname='Britannic Bold' fontsize='15'>Cases rose by roughly 30% year-over-year, indicating a sharp overall escalation.&quot;</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='22333' hidden='true' id='12' story-point-id='5' type-v2='text' w='38067' x='30400' y='60444'>
+          <formatted-text>
+            <run fontalignment='0' fontcolor='#ffffff' fontname='Britannic Bold' fontsize='15'>Fraud alone accounts for the vast majority of cases, far outpacing all other motives combined.&quot;</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' h='18889' hidden='true' id='13' story-point-id='6' type-v2='text' w='42467' x='27933' y='52222'>
+          <formatted-text>
+            <run fontalignment='0' fontcolor='#ffffff' fontname='Britannic Bold' fontsize='15'>Varanasi and Allahabad saw the sharpest increases, while a few cities bucked the trend with declines.&quot;</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' h='9333' id='14' story-point-id='8' type-v2='text' w='33333' x='64533' y='51000'>
+          <formatted-text>
+            <run bold='true' fontalignment='0' fontcolor='#ffffff' fontname='Britannic Bold' fontsize='15'>Cybercrime is heavily concentrated in a small number of major metros, with Varanasi and Allahabad standing out.&quot;</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <simple-id uuid='{77EB5A0E-9B2D-440D-A4E8-E914639E6F30}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='89'>
+    <window class='worksheet' name='Yearly Trend'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0wrl1gs0nm823v1g8d9i60y2al65].[none:year:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3E8C3336-C89A-40CD-9CCE-583648FA3948}' />
+    </window>
+    <window class='dashboard' name='Cybercrime Story'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{BA06313E-2180-4FE8-8088-0AE7C3C9E7D4}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Geographic Concentration'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='62'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.14nwxru0dlyrc016miljy19vuzyk].[sum:Total:qk]' type='size' />
+            <card pane-specification-id='0' param='[federated.14nwxru0dlyrc016miljy19vuzyk].[sum:Total:qk]' type='color' />
+          </strip>
+          <strip size='160'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8A399FB9-5B0B-4C90-A9BB-FD6002FE3721}' />
+    </window>
+    <window class='worksheet' name='Motive Breakdown'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.095ez3z0ni7dhj172t6fq0wc8ziz].[none:Pivot Field Names:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{000AEB08-5895-42A2-AB75-73D5B015AF2B}' />
+    </window>
+    <window class='worksheet' name='Biggest Movers'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0wrl1gs0nm823v1g8d9i60y2al65].[none:City:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0wrl1gs0nm823v1g8d9i60y2al65].[none:City:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{050035E3-B5A3-4958-A279-272211D7B1CD}' />
+    </window>
+  </windows>
+</workbook>
